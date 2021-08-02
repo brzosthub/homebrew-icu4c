@@ -14,8 +14,7 @@ class Icu < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "cd", "source"
-    system "./configure", "--prefix=#{prefix}"
+    system "./source/configure", "--prefix=#{prefix}"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     system "make", "install"
   end
