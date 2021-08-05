@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Icu < Formula
+class Icu4c < Formula
   desc "The new home of the ICU project source code."
   homepage "http://site.icu-project.org/"
   url "https://github.com/unicode-org/icu/archive/refs/tags/icu-release-4-0.tar.gz"
